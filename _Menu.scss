@@ -1,0 +1,38 @@
+.menu {
+  display: flex;
+  flex-flow: column wrap;
+}
+.navegacion {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 4rem;
+}
+.menu img {
+  width: 110px;
+  height: 25px;
+  margin-top: 10px;
+}
+
+.navegacion ul {
+    display: flex;
+    list-style-type: none;
+}
+
+
+.navegacion a {
+    font-style: none;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.8px;
+    margin-right: 18px;
+    font-family: "Segoe UI", SegoeUI, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.navegacion a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 2px; 
+    text-underline-offset: 4px;
+  }
+  
